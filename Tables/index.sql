@@ -18,4 +18,4 @@
 
 @proprietaires
 
-@contraintes/index.sql
+@constraints/index.sql
