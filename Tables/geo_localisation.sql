@@ -2,13 +2,13 @@
 
 CREATE TABLE geo_localisation
 (
-    id_geo_localisation VARCHAR(20) NOT NULL,
-    ville VARCHAR(50) NOT NULL,
-    rue VARCHAR(50) NOT NULL,
-    code_postal VARCHAR(50) NOT NULL,
-    id_client VARCHAR(20) NOT NULL,
-    id_location VARCHAR(20) NOT NULL,
-    id_vente VARCHAR(20) NOT NULL,
+    id_geo_localisation VARCHAR2(20) NOT NULL,
+    ville VARCHAR2(50) NOT NULL,
+    rue VARCHAR2(50) NOT NULL,
+    code_postal VARCHAR2(50) NOT NULL,
+    id_client VARCHAR2(20) NOT NULL,
+    id_location VARCHAR2(20) NOT NULL,
+    id_vente VARCHAR2(20) NOT NULL 
 );
 
 
