@@ -2,7 +2,7 @@
 
 projet sql ou on va gerer l'immobilier 
 
-[] Creation du fichier pour run le schema
+[x] Creation du fichier pour run le schema
 
 [x] Creation des tables
 
