@@ -12,3 +12,6 @@ DROP TABLE historiques_locations CASCADE CONSTRAINTS;
 DROP TABLE geo_localisation CASCADE CONSTRAINTS;
 DROP TABLE historiques_vente CASCADE CONSTRAINTS;
 
+
+COMMIT;
+
