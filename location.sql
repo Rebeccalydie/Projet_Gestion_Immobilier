@@ -1,0 +1,68 @@
+rem Insertion des données dans la table clients
+
+rem ****************tables clients .............
+
+INSERT INTO clients (id_client, nom_client, prenom_client, email, tel_client, cp_client) VALUES ('le12me', 'Han', 'Ali', 'AliHan@gmail.com', 677345607, '120 BP Douala');
+INSERT INTO clients (id_client, nom_client, prenom_client, email, tel_client, cp_client) VALUES ('me34fd', 'John', 'Mba', 'JohnMba@gmail.com', 677333456, '125 BP Yaounde');
+
+
+rem ****************tables clients .............
+
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('1me','la vente de domicile','2-chambres 2-touches-1cuisinesmodernes_meubles-1-balcons ', 'KOTTO','1pro', '1cl');
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('2me','la vente de domicile','3-chambres 3-touches-1cuisinesmodernes_meubles-1-balcons ', 'KOTTO','2pro','2cl');
+
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('3mai','la vente de domicile','2-chambres 1-touches-1cuisinesmodernes_meubles-1-balcons-1-grand couloir-1-grande piscine-1-grand espacejardinage  ", "AKWA","3pro", "3cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('4mai','la vente de domicile','DUPLEX 2-chambres1-touches-1cuisinesmodernes_meubles-1-balcons-1-grande piscine ", "LENDI","4pro", "4cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('5mai','la vente de domicile','DUPLEX 4-chambres2-touches-1cuisinesmodernes_meubles-1-balcons1-grand couloir1-grand espacejardinage-1-grande cour ", "BONAMOUSSADI DENVIN","5pro", "5cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('6mai','la vente de domicile',' 4-chambres 2-touches-1cuisinesmodernes_meubles-2-balcons1-grande cour1-grande piscine ", "LOGBESSOU","6pro", "6cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('7mai','la vente de domicile','3-chambres 2-touches-1cuisinesmodernes_meubles-2-balcons1-grande cour1-grande piscine ", "BASSON","7pro", "7cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('8mai','la vente de domicile','DUPLEX 4-chambres2-touches-1cuisinesmodernes_meubles-2-balcons1-grande cour ", "14","8pro", "8cl");
+
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('9mai','la vente de domicile','3-chambres 3-touches-1cuisinesmodernes_meubles-1-balcons ", "KOTTO","9pro", "9cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('10mai','la vente de domicile','2-chambres 2-touches-1cuisinesmodernes_meubles-n balcons ", "BONANJO","10pro", "10cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('11mai','la vente de domicile','2-chambres 2-touches-1cuisinesmodernes_meubles-n balcons ", "BONANJO","11pro", "11cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('12mai','la vente de domicile','DUPLEX 4-chambres2-touches-1cuisinesmodernes_meubles-1-balcons1-grand couloir1-grand espacejardinage-1-grande cour ", "BASTOS YAOUNDE","12pro", "12cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('13mai','la vente de domicile','4-chambres 2-touches-1cuisinesmodernes_meubles-1-balcons1-grand couloir1-grand espacejardinage-1-grande cour ", "DAMAS","13pro", "13cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('14mai','la vente de domicile','DUPLEX 2-chambres 1-touches-1cuisinesmodernes_meubles-1-balcons-1-grand couloir-1-grande piscine-1-grand espacejardinage  ", "AKWA","14pro", "14cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('15mai','la vente de domicile','DUPLEX 2-chambres 1-touches-1cuisinesmodernes_meubles-1-balcons-1-grande piscine ", "LENDI","15pro", "15cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('16mai','la vente de domicile','4-chambres 2-touches-1cuisinesmodernes_meubles-1-balcons1-grand couloir1-grand espacejardinage-1-grande cour ", "BONAMOUSSADI DENVIN","16pro", "16cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('17mai','la vente de domicile','4-chambres 2-touches-1cuisinesmodernes_meubles-2-balcons1-grande cour1-grande piscine ", "LOGBESSOU","17pro", "17cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('18mai','la vente de domicile','3-chambres 2-touches-1cuisinesmodernes_meubles-2-balcons1-grande cour1-grande piscine ", "BASTOS","18pro", "18cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('19mai','la vente de domicile','4-chambres 2-touches-1cuisinesmodernes_meubles-2-balcons1-grande cour ", "17","1pro", "1cl");
+
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('20mai','la vente de domicile','3-chambres 3-touches-1cuisinesmodernes_meubles-1-balcons ", "MAKEPE","19pro", "19cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('21mai','la vente de domicile','2-chambres 2-touches-1cuisinesmodernes_meubles-n balcons ", "BONANJO","20pro", "20cl" );
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('22mai','la vente de domicile','2-chambres 2-touches-1cuisinesmodernes_meubles-n balcons ", "BASTOS","21pro", "21cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('23mai','la vente de domicile','DUPLEX 4-chambres2-touches-1cuisinesmodernes_meubles-1-balcons1-grand couloir1-grand espacejardinage-1-grande cour ", "BASTOS YAOUNDE","22pro", "22cl");
+INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('24mai','la vente de domicile','DUPLEX 4-chambres2-touches-1cuisinesmodernes_meubles-1-balcons1-grand couloir1-grand espacejardinage-1-grande cour ", "DAMAS" ,,"23pro", "23cl");
+
+
+
+
+
+rem ****************tables maisons_location.............
+
+
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('1me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons ', 'KOTTO',155000,150000,'1pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('2me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons ','DAMAS',175000,175000,'2pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('3me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons-piscine ', 'KOTTO',199000,155000,190000,'3pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('4me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons ', 'DAMAS',2000000,155000,'4pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('5me','location de domicile','3-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons','BONANJO',150000,155000,'5pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('6me','location de domicile','2-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons-un espase-1-parking ', 'LENDI',20000000,155000,'6pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('7me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons ', 'LOGBESSOU',190000,155000,'7pro');
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('8me','location de domicile','3-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons','KOTTO',150000,'1po',200000,155000,'8pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('9me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons-1-parking ', 'LENDI',150000,155000,'9pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('10me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons ', 'BONAMUOSSADI',150000,155000,'10pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('11me','location de domicile','4-chambres2-3-touches-1cuisinesmodernes_meubles-1-balcons ','BASTOS',150000,155000,'11pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('12me','location de domicile','2-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons-1-parking ', '14',150000,155000,'12pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('13me','location de domicile','2-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons', '18',150000,155000,'13pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('14me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons ','LOGBESSOU',150000,155000,'14pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('15me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons ', 'LOGBESSOU',150000,155000,'15pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('16me','location de domicile','4-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons-1-parking', '21',150000,155000,'16pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('17me','location de domicile','1-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons ','YABASSI',150000,155000,'17pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('18me','location de domicile','2-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons-1-parking ', 'NYALA',150000,155000,'18pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('19me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons', 'MAKEPE',150000,155000,'19pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('20me','location de domicile','3-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons -1-parking', 'LOGPOM',200000,155000,'20pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('21me','location de domicile','2-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons ','LOGPOM',150000,'1po',150000,155000,'21pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('22me','location de domicile','2-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons -1-parking', 'BASSON',200000,155000,'22pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('23me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons-1-parking-piscine ', 'DEIDO',150000,155000,'23po');
