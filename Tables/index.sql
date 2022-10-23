@@ -1,21 +1,21 @@
-@clients.sql
+@Tables/clients.sql
 
 
-@geo_localisation.sql
+@Tables/geo_localisation.sql
 
 
-@historiques_vente.sql
+@Tables/historiques_vente.sql
 
 
-@historiques_locations.sql
+@Tables/historiques_locations.sql
 
 
-@maisons_location.sql
+@Tables/maisons_location.sql
 
 
-@maisons_vente.sql
+@Tables/maisons_vente.sql
 
 
-@proprietaires
+@Tables/proprietaires
 
-@contraintes/index.sql
+@Tables/contraintes/index.sql
