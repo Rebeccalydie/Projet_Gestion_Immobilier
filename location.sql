@@ -1,12 +1,12 @@
 rem Insertion des données dans la table clients
 
-rem ****************tables clients .............
+prompt ****************tables clients *******************************
 
 INSERT INTO clients (id_client, nom_client, prenom_client, email, tel_client, cp_client) VALUES ('le12me', 'Han', 'Ali', 'AliHan@gmail.com', 677345607, '120 BP Douala');
 INSERT INTO clients (id_client, nom_client, prenom_client, email, tel_client, cp_client) VALUES ('me34fd', 'John', 'Mba', 'JohnMba@gmail.com', 677333456, '125 BP Yaounde');
 
 
-rem ****************tables clients .............
+rem ****************tables clients ***********************************
 
 INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('1me','la vente de domicile','2-chambres 2-touches-1cuisinesmodernes_meubles-1-balcons ', 'KOTTO','1pro', '1cl');
 INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vente, prix_vente, id_proprietaire,  id_client) VALUES('2me','la vente de domicile','3-chambres 3-touches-1cuisinesmodernes_meubles-1-balcons ', 'KOTTO','2pro','2cl');
@@ -40,7 +40,7 @@ INSERT INTO maisons_vente (id_vente, type_vente, description_vente, adresse_vent
 
 
 
-rem ****************tables maisons_location.............
+prompt ****************tables maisons_location *****************************************************
 
 
 INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('1me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons ', 'KOTTO',155000,150000,'1pro');
@@ -50,7 +50,7 @@ INSERT INTO maisons_location (id_location, type_location, description_location, 
 INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('5me','location de domicile','3-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons','BONANJO',150000,155000,'5pro');
 INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('6me','location de domicile','2-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons-un espase-1-parking ', 'LENDI',20000000,155000,'6pro');
 INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('7me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons ', 'LOGBESSOU',190000,155000,'7pro');
- INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('8me','location de domicile','3-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons','KOTTO',150000,'1po',200000,155000,'8pro');
+INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('8me','location de domicile','3-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons','KOTTO',150000,'1po',200000,155000,'8pro');
 INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('9me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons-1-parking ', 'LENDI',150000,155000,'9pro');
 INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('10me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons ', 'BONAMUOSSADI',150000,155000,'10pro');
 INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('11me','location de domicile','4-chambres2-3-touches-1cuisinesmodernes_meubles-1-balcons ','BASTOS',150000,155000,'11pro');
