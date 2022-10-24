@@ -1,6 +1,6 @@
 ALTER TABLE historiques_locations
-ADD (CONSTRAINT id_client_pk
-        FOREIGN KEY (id_client)
+ADD (CONSTRAINT id_hl_pk
+        PRIMARY KEY (id_client)
         REFERENCES clients(id_client),
     CONSTRAINT id_location_pk
         FOREIGN KEY(id_location)

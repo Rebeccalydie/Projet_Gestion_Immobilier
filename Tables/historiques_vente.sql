@@ -2,16 +2,16 @@
 
 CREATE TABLE historiques_vente
 (
-    id_client NUMBER(20) CONSTRAINT id_client_pk NOT NULL,
+    id_client NUMBER(20) CONSTRAINT id_hv_pk NOT NULL,
     date_vente DATE NOT NULL,
     id_vente VARCHAR2(20) NOT NULL,
 );
 
-CREATE UNIQUE INDEX id_client_pk
+CREATE UNIQUE INDEX id_hv_pk
 ON historiques_vente(id_client);
 
 ALTER TABLE id_client
-ADD (CONSTRAINT id_client_pk
+ADD (CONSTRAINT id_hv_pk
         FOREIGN KEY (id_client)
         REFERENCES clients(id_client)
     
