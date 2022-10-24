@@ -1,0 +1,3 @@
+ALTER TABLE GEO_LOCALISATION
+ADD
+PRIMARY KEY (id_Geolocalisation);

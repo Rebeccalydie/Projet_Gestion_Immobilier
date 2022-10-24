@@ -66,9 +66,11 @@ rem gi_popul.sql contenant les differentes données inserer dans les tables
 
 rem Appelle du fichier ou les differentes tables on été crée 
 
-@Tables/index.sql
+rem @Tables/index.sql
 
-rem @Objets/mainTable
+@Objets/mainTable
+
+@location
 
 rem @gi_popul.sql 
 
