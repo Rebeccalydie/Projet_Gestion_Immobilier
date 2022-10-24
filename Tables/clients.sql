@@ -5,7 +5,7 @@ rem creation de la table CLIENTS
 Prompt *********  creation de la table CLIENTS .......
 
 CREATE TABLE clients
-( id_client VARCHAR2(20) NOT NULL,
+( id_client NUMBER(20) NOT NULL,
   nom_client VARCHAR2(50) NOT NULL,
   prenom_client VARCHAR2(50) NOT NULL,
   email_client VARCHAR2(50) NOT NULL,

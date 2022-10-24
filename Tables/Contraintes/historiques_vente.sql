@@ -1,6 +1,6 @@
 ALTER TABLE historiques_vente
-ADD (CONSTRAINT id_client_pk
-        FOREIGN KEY (id_client)
+ADD (CONSTRAINT id_hv_pk
+        PRIMARY KEY (id_client)
         REFERENCES clients(id_client),
     CONSTRAINT id_vente_nn
         FOREIGN KEY(id_vente)
