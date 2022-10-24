@@ -6,7 +6,7 @@ CREATE TABLE geo_localisation
     ville VARCHAR2(50) NOT NULL,
     rue VARCHAR2(50) NOT NULL,
     code_postal VARCHAR2(50) NOT NULL,
-    id_client VARCHAR2(20) NOT NULL,
+    id_client NUMBER(20) NOT NULL,
     id_location VARCHAR2(20) NOT NULL,
     id_vente VARCHAR2(20) NOT NULL 
 );
