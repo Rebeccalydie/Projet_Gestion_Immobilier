@@ -10,11 +10,14 @@ CREATE TABLE maisons_location
   id_client NUMBER(20) NOT NULL	
 ); 
 
-CREATE UNIQUE INDEX id_location
-ON maisons_vente(id_vente);
+CREATE UNIQUE INDEX id_location_nn
+ON maisons_location(id_location);
+
 ALTER TABLE id_location_nn
-ADD (CONSTRAINT id_client_PK
-        FOREIGN KEY(id_location)
+ADD (CONSTRAINT id_location_nn
+       PRIMARY KEY(id_location),
+    CONSTRAINT id_client_PK
+        FOREIGN KEY(id_client)
         REFERENCES clients(id_client)
     );
 
