@@ -68,9 +68,7 @@ rem Appelle du fichier ou les differentes tables on été crée
 
 @Tables/index
 
-rem @Objets/mainTable
-
-rem @gi_popul.sql 
+rem @Insertion/index
 
 SPOOL OFF
 
