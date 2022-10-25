@@ -8,6 +8,6 @@ ADD (CONSTRAINT id_geo
         FOREIGN KEY(id_vente)
         REFERENCES maisons_vente(id_vente),
     CONSTRAINT id_location_pk
-        FOREIGN KEY(id_location)
-        REFERENCES maisons_location(id_location)
+        FOREIGN KEY(id_Mlocation)
+        REFERENCES maisons_location(id_Mlocation)
     ;)
