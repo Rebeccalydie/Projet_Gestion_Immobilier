@@ -2,7 +2,7 @@ PRO INSERTING into geo_localisation
 set define off
 begin
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (dla2374e,'Douala','R425','dla425','MVCH201',100);
-   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (baf2375e,'Bafoussam','R12','baf12','MVH201',101);
+  insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (baf2375e,'Bafoussam','R12','baf12','MVH201',101);
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (dla2375e,'Douala','R102','dla102','MVCH211',102);
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (dla2374e,'Douala','R42','dla42','MVAP20',103);
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (yde2373e,'yaounde','R25','yde425','MVD201',104);

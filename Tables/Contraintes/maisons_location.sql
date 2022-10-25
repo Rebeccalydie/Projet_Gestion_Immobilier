@@ -1,7 +1,7 @@
 ALTER TABLE maisons_location
-ADD (CONSTRAINT id_location_nn
-		PRIMARY KEY (id_location),
-	CONSTRAINT id_location_pk
-		FOREIGN KEY(id_proprietaire)
-		REFERENCES historiques_locations (id_proprietaire)
+ADD (CONSTRAINT id_location_pk
+		PRIMARY KEY (id_Mlocation),
+	CONSTRAINT id_client_pk
+		FOREIGN KEY(id_client)
+		REFERENCES maisons_location (id_location)
 );
