@@ -1,6 +1,6 @@
 ALTER TABLE geo_localisation
 ADD (CONSTRAINT id_geo
-        PRIMARY KEY(id_geo_localisation) 
+        PRIMARY KEY(id_geo_localisation) ,
     CONSTRAINT id_client_pk
         FOREIGN KEY (id_client)
         REFERENCES clients(id_client),
@@ -10,4 +10,4 @@ ADD (CONSTRAINT id_geo
     CONSTRAINT id_location_pk
         FOREIGN KEY(id_Mlocation)
         REFERENCES maisons_location(id_Mlocation)
-    ;)
+    );
