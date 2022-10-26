@@ -16,3 +16,4 @@ begin
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (bmd2374e,'Bamenda','R55','bmd55','MVAP3',107);
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (bmd2374e,'Bamenda','R70','bmd70','MVAP4',109);
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (bt2374e,'Bertoua','R15','bt15','MVST11',110);
+end 

@@ -1,4 +1,4 @@
-ALTER TABLE maisons_location
+ALTER TABLE maisons_locations
 ADD (CONSTRAINT id_location_pk
 		PRIMARY KEY (id_Mlocation),
 	CONSTRAINT id_client_pk
