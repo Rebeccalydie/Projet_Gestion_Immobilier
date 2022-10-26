@@ -19,4 +19,3 @@
 @Tables/Contraintes/proprietaires.sql
 
 
-@Tables/Contraintes/proprietaire_client.sql
