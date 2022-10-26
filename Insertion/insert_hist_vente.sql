@@ -1,6 +1,3 @@
-  PRO INSERTING into maisons_vente
-set define off
-begin
   insert into historiques_vente (id_client,date_vente,id_vente) values (100,10/05/2021,'MVCH1');
   insert into historiques_vente (id_client,date_vente,id_vente) values (101,10/05/2021,'MVH1');
   insert into historiques_vente (id_client,date_vente,id_vente) values (102,11/05/2021,'MVCH2');
@@ -26,4 +23,3 @@ begin
   insert into historiques_vente (id_client,date_vente,id_vente) values (118,30/11/2022,'MVST4');
   insert into historiques_vente (id_client,date_vente,id_vente) values (119,22/11/2022,'MVST5');
   insert into historiques_vente (id_client,date_vente,id_vente) values (120,10/04/2022,'MVH5');
-end

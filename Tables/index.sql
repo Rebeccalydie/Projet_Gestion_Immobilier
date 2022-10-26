@@ -22,4 +22,4 @@
 @Tables/propietaire_client.sql
 
 
-@Tables/contraintes/index.sql
+

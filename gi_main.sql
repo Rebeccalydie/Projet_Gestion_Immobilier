@@ -68,7 +68,9 @@ rem Appelle du fichier ou les differentes tables on été crée
 
 @Tables/index
 
-rem @Insertion/index
+@Insertion/index
+
+rem @Tables/contraintes/index.sql
 
 SPOOL OFF
 

@@ -1,8 +1,6 @@
-PRO INSERTING into geo_localisation
-set define off
-begin
+
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (dla2374e,'Douala','R425','dla425','MVCH1',100);
-   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (baf2375e,'Bafoussam','R12','baf12','MVH1',101);
+  insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (baf2375e,'Bafoussam','R12','baf12','MVH1',101);
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (dla2375e,'Douala','R102','dla102','MVCH2',102);
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (dla2374e,'Douala','R42','dla42','MVAP1',103);
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (yde2373e,'yaounde','R25','yde425','MVD1',104);
@@ -26,4 +24,3 @@ begin
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (bt2374e,'Kribi','R18','kb18','MVST4',118);
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (bt2374e,'Limbe','R14','lmb14','MVST5',119);
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_client) values (bt2374e,'Loum','R03','lm03','MVH5',120);
-end
