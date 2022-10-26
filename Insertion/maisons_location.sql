@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 PROMPT **************** TABLES MAISONS_LOCATION *****************************************************
 
 PRO INSERTING into maisons_location
@@ -27,3 +28,31 @@ begin
    INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('22me','location de domicile','2-chambres2-2-touches-1cuisinesmodernes_meubles-1-balcons -1-parking', 'BASSON',200000,155000,'22pro');
    INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_proprietaire) VALUES('23me','location de domicile','2-chambres2-1-touches-1cuisinesmodernes_meubles-1-balcons-1-parking-piscine ', 'DEIDO',150000,155000,'23po');
 end
+=======
+  PRO INSERTING into maisons_location
+set define off
+begin
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLAP1','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons ', 'KOTTO',155000,150000,140);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLAP2','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons ','DAMAS',175000,175000,141);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLAP3','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons-piscine ', 'KOTTO',155000,190000,142);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLAP4','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons ', 'DAMAS',2000000,155000,103);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_client) VALUES('MLAP5','appartement','3-chambres2-2-douches-1cuisinesmodernes_meubles-1-balcons','BONANJO',150000,155000,107);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLAP6','appartement','2-chambres2-2-douches-1cuisinesmodernes_meubles-1-balcons-un espase-1-parking ', 'LENDI',20000000,155000,140);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLAP7','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons ', 'LOGBESSOU',190000,155000,143);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLAP8','appartemente','3-chambres2-2-douches-1cuisinesmodernes_meubles-1-balcons','KOTTO',150000,155000,144);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLST1','studio','1-chambres-1-douche-1cuisinesmodernes_meubles-1-balcons-1-parking ', 'LENDI',15000,155000,145);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLAP9','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons ', 'BONAMUOSSADI',150000,155000,146);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_client) VALUES('MLAP10','appartement','4-chambres2-3-douche-1cuisinesmodernes_meubles-1-balcons ','BASTOS',150000,155000,147);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLAP12','appartement','2-chambres2-2-douches-1cuisinesmodernes_meubles-1-balcons', '18',150000,155000,148);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_client) VALUES('MLAP13','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons ','LOGBESSOU',150000,155000,149);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_client) VALUES('MLAP14','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons ', 'LOGBESSOU',150000,155000,120);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MVLA1','villa','4-chambres2 1-douche 1-0cuisinesmodernes_meubles 1-balcons 1-parking', '21',150000,155000,150);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLAP11','appartement','1-chambres 2-douches 1-cuisinesmodernes_meubles 1-balcons ','YABASSI',150000,155000,146);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLCH1','chambre','1-chambres-douche 1-parking','NYALA',15000,155000,116);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_client) VALUES('MLAP15','appartement','2-chambres2 1-douche 1cuisines-modernes_meubles 1-balcons', 'MAKEPE',150000,155000,147);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLAP16','appartement','3-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons -1-parking', 'LOGPOM',200000,155000,151);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_client) VALUES('MLST2','Studio','1-chambres 1-douches 1cuisinesmodernes_meubles-1-balcons ','DLALOGPOM',35000,155000,152);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution,  id_client) VALUES('MLAP17','appartement','2-chambres 2-douches-1cuisinesmodernes_meubles-1-balcons -1-parking', 'DLABASSON',200000,155000,120);
+ INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution, id_client) VALUES('MLST3','studio','1-chambres 1-douche 1-cuisinesmodernes_meubles 1-balcons 1-parking piscine ', 'DLA520',50000,155000,153);
+end
+>>>>>>> 8a02f5f4d74f382d939f191ae87d85fcaf36b640
