@@ -1,4 +1,4 @@
-@Insertion/geo_localisation.sql
+rem @Insertion/geo_localisation.sql
 
 @Insertion/historiques_locations.sql
 
