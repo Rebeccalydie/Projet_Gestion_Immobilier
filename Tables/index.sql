@@ -17,9 +17,3 @@
 
 
 @Tables/proprietaires.sql
-
-
-@Tables/propietaire_client.sql
-
-
-

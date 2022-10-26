@@ -1,6 +1,6 @@
 rem Insertion des données dans la table clients
 
-prompt ***********************tables clients ***********************
+prompt *********************** TABLES CLIENTS ***********************
 
 INSERT INTO clients (id_client, nom_client, prenom_client, email_client, tel_client, cp_client) VALUES (100, 'Han', 'mohamed', 'mohamedhan@gmail.com', 677345607, '120 BP Douala');
 INSERT INTO clients (id_client, nom_client, prenom_client, email_client, tel_client, cp_client) VALUES (101, 'OUM', 'rosine', 'rosine52oum@gmail.com', 697581256, '120 BP Douala');
