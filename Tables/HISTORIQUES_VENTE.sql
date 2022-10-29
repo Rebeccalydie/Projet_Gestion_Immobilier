@@ -2,13 +2,13 @@
 
 CREATE TABLE historiques_vente
 (
-    id_client INT CONSTRAINT id_hv_pk NOT NULL,
-    date_vente DATE NOT NULL,
-    id_vente VARCHAR2(20) NOT NULL
+    id_client INT NOT NULL,
+    date_vente DATE,
+    id_vente VARCHAR2(20) 
 );
 
-CREATE UNIQUE INDEX id_hv_pk
-ON historiques_vente(id_vente);
+CREATE INDEX dt_vent
+ON historiques_vente(date_vente);
 
 
 

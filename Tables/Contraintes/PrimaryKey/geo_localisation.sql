@@ -1,0 +1,3 @@
+ALTER TABLE GEO_LOCALISATION
+ADD CONSTRAINT id_geo
+    PRIMARY KEY(id_geo_localisation);

@@ -8,7 +8,7 @@ Prompt *******************ALTERATION DE LA SESSION *****************************
 rem Langue francaise
 ALTER SESSION SET NLS_TERRITORY=Cameroon;
 ALTER SESSION SET NLS_LANGUAGE=French;
-SET LINESIZE 3000
+SET LINESIZE 300
 ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY'; 
 
 rem On affiche la liste de toute les espaces de tables alloués tablespace deja crée 
@@ -17,16 +17,17 @@ SELECT tablespace_name FROM dba_tablespaces;
 PROMPT *********************ALLOCATION DE ESPACE MEMOIRE *******************************
 rem On crée l espaces mémoire tablespace 
 CREATE tablespace gi_tabspace
-  datafile 'gi_tabspace.dat'
+  datafile 'gi_tablespace.dat'
   size 10M autoextend ON;
 
 rem On crée un temporary
 CREATE temporary tablespace gi_tabspace_temp
-    tempfile 'gi_tabspace_temp.dat'
+    tempfile 'gi_tablespace_temp.dat'
     size 5M autoextend ON;
 
 PROMPT ********************* RAFRAICHISSEMENT ******************************************
 DROP USER gi CASCADE;
+
 PROMPT ********************* CREATION DU SCHEMA *****************************************
 rem La partie la plus cruciale qui est la création du shema/utlisateur gi 
 rem C est de la qu on vas pouvoir crée nos differentes tables   
@@ -72,6 +73,19 @@ rem Appelle du fichier ou les differentes tables on été crée
 
 @Tables/contraintes/index.sql
 
+rem execution des commentaires
+@gi_coment.sql
+
 SPOOL OFF
+PROMPT **************
+PROMPT *****
+PROMPT ********************************************************* BY GROUPE 7 ***********************************************************
+PROMPT *********************************************************************************************************************************
 
 SELECT table_name FROM user_tables; 
+
+PROMPT ********************************************************* BY GROUPE 7 ***********************************************************
+PROMPT *********************************************************************************************************************************
+PROMPT *****
+PROMPT ***
+PROMPT *
