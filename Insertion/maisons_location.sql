@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+  rem PRO INSERTING into maisons_location
+
+>>>>>>> 7fec2deb623ce4a72c2680891b2715fb57a0c5d6
  INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution) VALUES('MLAP1','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons ', 'KOTTO',155000,150000);
  INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution) VALUES('MLAP2','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons ','DAMAS',175000,175000);
  INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution) VALUES('MLAP3','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons-piscine ', 'KOTTO',199000,155000);

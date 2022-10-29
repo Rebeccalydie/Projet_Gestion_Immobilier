@@ -72,9 +72,12 @@ rem Appelle du fichier ou les differentes tables on été crée
 @Insertion/index
 
 @Tables/contraintes/index.sql
+<<<<<<< HEAD
 
 rem execution des commentaires
 @gi_coment.sql
+=======
+>>>>>>> 7fec2deb623ce4a72c2680891b2715fb57a0c5d6
 
 SPOOL OFF
 PROMPT **************
