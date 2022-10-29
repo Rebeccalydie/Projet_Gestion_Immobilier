@@ -1,3 +1,5 @@
+PROMPT ********************** TABLE HISTORIQUES_LOCATIONS ************************************
+
 ALTER SESSION SET NLS_DATE_FORMAT = 'DD/MM/YYYY'; 
 INSERT INTO historiques_locations (date_debut_location, duree_location, id_client, id_location) VALUES ('23/02/2019', 10, 100, 'MLAP1');
 INSERT INTO historiques_locations (date_debut_location, duree_location, id_client, id_location) VALUES ('12/08/2021', 15, 101, 'MLAP2');
