@@ -1,8 +1,4 @@
   insert into historiques_vente (id_client,date_vente,id_vente) values (100,'10/05/2021','MVCH1');
-<<<<<<< HEAD
-=======
-  insert into historiques_vente (id_client,date_vente,id_vente) values (101,'10/05/2021','MVH1');
->>>>>>> 7fec2deb623ce4a72c2680891b2715fb57a0c5d6
   insert into historiques_vente (id_client,date_vente,id_vente) values (102,'11/05/2021','MVCH2');
   insert into historiques_vente (id_client,date_vente,id_vente) values (104,'08/04/2021','MVD1');
   insert into historiques_vente (id_client,date_vente,id_vente) values (105,'12/04/2021','MVH2');
@@ -10,10 +6,6 @@
   insert into historiques_vente (id_client,date_vente,id_vente) values (106,'22/05/2021','MVCH3');
   insert into historiques_vente (id_client,date_vente,id_vente) values (107,'29/05/2021','MVST1');
   insert into historiques_vente (id_client,date_vente,id_vente) values (108,'19/05/2021','MVCH4');
-<<<<<<< HEAD
-=======
-  insert into historiques_vente (id_client,date_vente,id_vente) values (103,'10/05/2021','MVAP1');
->>>>>>> 7fec2deb623ce4a72c2680891b2715fb57a0c5d6
   insert into historiques_vente (id_client,date_vente,id_vente) values (109,'15/05/2021','MVAP2');
   insert into historiques_vente (id_client,date_vente,id_vente) values (110,'13/03/2021','MVST2');
   insert into historiques_vente (id_client,date_vente,id_vente) values (100,'28/02/2021','MVST3');

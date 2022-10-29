@@ -22,8 +22,5 @@ INSERT INTO proprietaires ( id_proprietaire, nom_proprio, prenom_proprio, email_
 INSERT INTO proprietaires ( id_proprietaire, nom_proprio, prenom_proprio, email_proprio, tel_proprio, cp_proprio) VALUES (1017, 'POUANI', 'justin', 'pouanijustin@gmail.com', '684562354', '1278 BP Bertoua');
 INSERT INTO proprietaires ( id_proprietaire, nom_proprio, prenom_proprio, email_proprio, tel_proprio, cp_proprio) VALUES (1018, 'DJOUDA', 'patrick', 'patrickdjouda67@gmail.com', '694121358', '12 BP Douala');
 INSERT INTO proprietaires ( id_proprietaire, nom_proprio, prenom_proprio, email_proprio, tel_proprio, cp_proprio) VALUES (1019, 'MAKOLO', 'megane', 'makolomegane01@gmail.com', '686451232', '125 BP Bafoussam');
-<<<<<<< HEAD
 INSERT INTO proprietaires ( id_proprietaire, nom_proprio, prenom_proprio, email_proprio, tel_proprio, cp_proprio) VALUES (1020, 'MALENG', 'Sala', 'malengSala01@gmail.com', '686445232', '132 BP Bafoussam');
-=======
->>>>>>> 7fec2deb623ce4a72c2680891b2715fb57a0c5d6
 
