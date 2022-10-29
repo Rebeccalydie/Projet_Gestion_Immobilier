@@ -6,7 +6,7 @@ Prompt ************** CREATION DE LA TABLE CLIENTS *****************************
 
 CREATE TABLE clients
 ( 
-    id_client INT NOT NULL,
+  id_client INT NOT NULL,
   nom_client VARCHAR2(50),
   prenom_client VARCHAR2(50),
   email_client VARCHAR2(50),
