@@ -1,4 +1,4 @@
-rem PRO INSERTING into clients
+PROMPT *********************************** CLIENTS *************************************************************
 
  INSERT INTO clients (id_client, nom_client, prenom_client, email_client, tel_client, cp_client,id_location, id_proprietaire) VALUES (100, 'Han', 'mohamed', 'mohamedhan@gmail.com', 677345607, '120 BP Douala','MLAP1', 1000);
  INSERT INTO clients (id_client, nom_client, prenom_client, email_client, tel_client, cp_client,id_location, id_proprietaire) VALUES (101, 'OUM', 'rosine', 'rosine52oum@gmail.com', 697581256, '120 BP Douala','MLAP2', 1001);
