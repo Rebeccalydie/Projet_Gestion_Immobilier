@@ -1,3 +1,5 @@
+PROMPT **************************** HISTORIQUES_VENTE *******************************************
+  
   insert into historiques_vente (id_client,date_vente,id_vente) values (100,'10/05/2021','MVCH1');
   insert into historiques_vente (id_client,date_vente,id_vente) values (102,'11/05/2021','MVCH2');
   insert into historiques_vente (id_client,date_vente,id_vente) values (104,'08/04/2021','MVD1');
