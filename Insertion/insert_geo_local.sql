@@ -1,3 +1,5 @@
+  PROMPT ************************************ TABLE GEO_LOCALISATION *************************************************
+  
   rem insertion maisons_vente
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_location) values ('dla2374e','Douala','R425','dla425','MVCH1',' ');
   insert into geo_localisation (id_geo_localisation,ville,rue,code_postal,id_vente,id_location) values ('baf2375e','Bafoussam','R12','baf12','MVH1',' ');
