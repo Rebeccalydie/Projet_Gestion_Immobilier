@@ -4,6 +4,14 @@ SET ECHO OFF
 SET VERIFY OFF
 alter session set container=xepdb1;
 
+PROMPT ************** PROJET GESTION IMMOBILIER ELABORER PAR LE GROUPE 7 DE TI PAM 2 *****************
+PROMPT **************************************************************
+PROMPT *******************************************
+PROMPT *************************
+PROMPT **************
+
+PROMPT *********************************** INITIALISATION DU SCHEMA ***********************************
+
 Prompt *******************ALTERATION DE LA SESSION ************************************
 rem Langue francaise
 ALTER SESSION SET NLS_TERRITORY=Cameroon;
