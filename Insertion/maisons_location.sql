@@ -1,3 +1,5 @@
+ PROMPT ********************************* TABLE MAISONS_LOCATION **********************************************
+ 
  INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution) VALUES('MLAP1','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons ', 'KOTTO',155000,150000);
  INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution) VALUES('MLAP2','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons ','DAMAS',175000,175000);
  INSERT INTO maisons_location (id_location, type_location, description_location, adresse_location, prix_menstruel, caution) VALUES('MLAP3','appartement','2-chambres2-1-douche-1cuisinesmodernes_meubles-1-balcons-piscine ', 'KOTTO',199000,155000);
