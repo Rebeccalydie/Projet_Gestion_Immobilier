@@ -11,9 +11,7 @@ CREATE TABLE clients
   prenom_client VARCHAR2(50),
   email_client VARCHAR2(50),
   tel_client NUMBER(20),
-  cp_client VARCHAR2(25),
-  id_location VARCHAR2(20),
-  id_proprietaire INT NOT NULL
+  cp_client VARCHAR2(25)
   );
 
 CREATE INDEX id_client_pk

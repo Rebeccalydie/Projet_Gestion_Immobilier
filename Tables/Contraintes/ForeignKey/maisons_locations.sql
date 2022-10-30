@@ -1,5 +1,5 @@
 ALTER TABLE maisons_location
 ADD 
-CONSTRAINT id_client_p2
-FOREIGN KEY(id_client)
-REFERENCES clients (id_client);
+CONSTRAINT id_prop
+FOREIGN KEY(id_proprietaire)
+REFERENCES proprietaires (id_proprietaire);
