@@ -1,0 +1,3 @@
+ALTER TABLE pays
+ADD
+PRIMARY KEY (id_pays);
