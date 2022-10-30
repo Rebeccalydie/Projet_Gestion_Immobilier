@@ -2,8 +2,6 @@ PROMPT ********************* CLE PRIMAIRE **********************************
 
 @Tables/Contraintes/PrimaryKey/clients.sql
 
-@Tables/Contraintes/PrimaryKey/geo_localisation.sql
-
 @Tables/Contraintes/PrimaryKey/historiques_location.sql
 
 @Tables/Contraintes/PrimaryKey/historiques_vente.sql
@@ -14,12 +12,14 @@ PROMPT ********************* CLE PRIMAIRE **********************************
 
 @Tables/Contraintes/PrimaryKey/proprietaires.sql
 
+@Tables/Contraintes/PrimaryKey/reservation.sql
+
+@Tables/Contraintes/PrimaryKey/publication.sql
+
+@Tables/Contraintes/PrimaryKey/pays.sql
+
 
 PROMPT ********************** CLE SECONDAIRE *********************************
-
-@Tables/Contraintes/ForeignKey/clients.sql
-
-@Tables/Contraintes/ForeignKey/geo_localisation.sql
 
 @Tables/Contraintes/ForeignKey/historiques_location.sql
 
@@ -28,4 +28,10 @@ PROMPT ********************** CLE SECONDAIRE *********************************
 @Tables/Contraintes/ForeignKey/maisons_locations.sql
 
 @Tables/Contraintes/ForeignKey/maisons_vente.sql
+
+@Tables/Contraintes/ForeignKey/reservation.sql
+
+@Tables/Contraintes/ForeignKey/publication.sql
+
+
 
