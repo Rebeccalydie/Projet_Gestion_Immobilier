@@ -15,3 +15,22 @@ CREATE TABLE proprietaires
 
 CREATE  INDEX id_prop_pk
 ON proprietaires (id_proprietaire);
+rem ************************************************************************
+rem creation de la table proprietaires
+
+
+Prompt *********  creation de la table proprietaires .......
+
+CREATE TABLE proprietaires
+( id_proprietaire INT NOT NULL,
+  nom_proprio VARCHAR2(20) NOT NULL,
+  prenom_proprio VARCHAR2(20) NULL NULL,
+  email_proprio VARCHAR2(20) NOT NULL,
+  tel_proprio NUMBER (10) NOT NULL,
+  cp_proprio VARCHAR2(20) NOT NULL
+); 
+
+CREATE INDEX id_prop_pk
+ON proprietaires(id_proprietaire);
+
+
