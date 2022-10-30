@@ -1,4 +1,4 @@
-Prompt *********  creation de la table MAISON_LOCATION ****************************
+Prompt *********  creation de la table MAISONS_LOCATIONS ****************************
 
 CREATE TABLE MAISONS_LOCATIONS
 ( id_Mlocation VARCHAR2(20) CONSTRAINT id_Mlocation_nn NOT NULL,

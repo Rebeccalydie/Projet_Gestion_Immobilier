@@ -2,7 +2,7 @@ Prompt ********************  CREATION DE LA TABLE VILLES ***********************
 
 CREATE TABLE VILLES
 (
-    id_ville INT NOT NULL,
+    id_ville INT NOT NULL CONSTRAINT id_vill NOT NULL,
     nom_ville VARCHAR(20),
     id_pays INT NOT NULL
 );

@@ -1,5 +1,5 @@
 
-@Insertion/historiques_locations.sql
+@Insertion/HISTORIQUES_MLOCATIONS.sql
 
 @Insertion/insertion_clients.sql
 
