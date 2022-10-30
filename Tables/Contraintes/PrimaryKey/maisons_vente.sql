@@ -1,3 +1,2 @@
-ALTER TABLE MAISONS_VENTE
-ADD
-PRIMARY KEY (id_vente);
+ALTER TABLE maisons_vente
+ADD PRIMARY KEY (id_vente);

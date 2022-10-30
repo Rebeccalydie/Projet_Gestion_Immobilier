@@ -1,3 +1,2 @@
-ALTER TABLE publications
-ADD
-PRIMARY KEY (id_publication);
+ALTER TABLE publications 
+ADD PRIMARY KEY (id_publication);

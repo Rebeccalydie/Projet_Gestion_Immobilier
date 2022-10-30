@@ -13,7 +13,7 @@ CREATE TABLE publications
 );
 
 CREATE  INDEX id_pub_pk
-ON reservations (id_reservation);
+ON publications (id_publication);
 
 
 

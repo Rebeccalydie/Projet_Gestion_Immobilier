@@ -21,8 +21,6 @@ PROMPT ********************* CLE PRIMAIRE **********************************
 
 PROMPT ********************** CLE SECONDAIRE *********************************
 
-@Tables/Contraintes/ForeignKey/geo_localisation.sql
-
 @Tables/Contraintes/ForeignKey/historiques_location.sql
 
 @Tables/Contraintes/ForeignKey/historiques_vente.sql
