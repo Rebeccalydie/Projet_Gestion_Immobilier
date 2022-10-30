@@ -1,24 +1,28 @@
-@Tables/clients.sql
+@Tables/ACHATS.sql
 
 
-@Tables/geo_localisation.sql
+@Tables/CLIENTS.sql
 
 
-@Tables/historiques_vente.sql
+@Tables/HISTORIQUES_MLOCATIONS.sql
 
 
-@Tables/historiques_locations.sql
+@Tables/HISTORIQUES_MVENTES.sql
 
 
-@Tables/maisons_location.sql
+@Tables/MAISON_LOCATIONS.sql
 
 
-@Tables/maisons_vente.sql
+@Tables/MAISON_VENTES.sql
 
 
-@Tables/proprietaires.sql
+@Tables/PAYS.sql
 
 
+@Tables/PROPRIETAIRES.sql
 
 
+@Tables/PUBLICATIONS.sql
 
+
+@Tables/VILLES.sql

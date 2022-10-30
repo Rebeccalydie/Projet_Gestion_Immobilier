@@ -1,14 +1,14 @@
-    Prompt ****************** CREATION DE LA TABLE HISTORIQUES_VENTE ***************************************
+    Prompt ****************** CREATION DE LA TABLE HISTORIQUES_MVENTES ***************************************
 
-CREATE TABLE historiques_vente
+CREATE TABLE HISTORIQUES_MVENTES
 (
-    id_client INT NOT NULL,
-    date_vente DATE,
-    id_vente VARCHAR2(20) 
+    id_HMvente INT NOT NULL,
+    date_HMvente DATE,
+    id_Mvente VARCHAR2(20) 
 );
 
-CREATE INDEX dt_vent
-ON historiques_vente(date_vente);
+CREATE INDEX dt_HMvente
+ON HISTORIQUES_MVENTES(id_HMvente);
 
 
 

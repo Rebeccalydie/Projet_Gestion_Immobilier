@@ -4,7 +4,7 @@ rem creation de la table PROPRIETAIRES
 
 Prompt *********  creation de la table PROPRIETAIRES .......
 
-CREATE TABLE proprietaires
+CREATE TABLE PROPRIETAIRES
 ( id_proprietaire INT CONSTRAINT id_prop_pk NOT NULL,
   nom_proprio VARCHAR2(50) ,
   prenom_proprio VARCHAR2(50),
