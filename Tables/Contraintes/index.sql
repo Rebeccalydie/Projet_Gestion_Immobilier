@@ -1,37 +1,42 @@
 PROMPT ********************* CLE PRIMAIRE **********************************
 
-@Tables/Contraintes/PrimaryKey/clients.sql
+@Tables/Contraintes/PrimaryKey/PK_ACHATS.sql
 
-@Tables/Contraintes/PrimaryKey/historiques_location.sql
+@Tables/Contraintes/PrimaryKey/PK_CLIENTS.sql
 
-@Tables/Contraintes/PrimaryKey/historiques_vente.sql
+@Tables/Contraintes/PrimaryKey/PK_HISTORIQUES_MLOCATIONS.sql
 
-@Tables/Contraintes/PrimaryKey/maisons_locations.sql
+@Tables/Contraintes/PrimaryKey/PK_HISTORIQUES_MVENTES.sql
 
-@Tables/Contraintes/PrimaryKey/maisons_vente.sql
+@Tables/Contraintes/PrimaryKey/PK_MAISONS_VENTES.sql
 
-@Tables/Contraintes/PrimaryKey/proprietaires.sql
+@Tables/Contraintes/PrimaryKey/PK_PAYS.sql
 
-@Tables/Contraintes/PrimaryKey/reservation.sql
+@Tables/Contraintes/PrimaryKey/PK_PROPRIETAIRES.sql
 
-@Tables/Contraintes/PrimaryKey/publication.sql
+@Tables/Contraintes/PrimaryKey/PK_PUBLICATIONS.sql
 
-@Tables/Contraintes/PrimaryKey/pays.sql
+@Tables/Contraintes/PrimaryKey/PK_RESERVATIONS.sql
+
+@Tables/Contraintes/PrimaryKey/PK_VILLES.sql
+
 
 
 PROMPT ********************** CLE SECONDAIRE *********************************
 
-@Tables/Contraintes/ForeignKey/historiques_location.sql
+@Tables/Contraintes/ForeignKey/FK_HISTORIQUES_MLOCATIONS.sql
 
-@Tables/Contraintes/ForeignKey/historiques_vente.sql
+@Tables/Contraintes/ForeignKey/FK_HISTORIQUES_MVENTES.sql
 
-@Tables/Contraintes/ForeignKey/maisons_locations.sql
+@Tables/Contraintes/ForeignKey/FK_MAISONS_LOCATIONS.sql
 
-@Tables/Contraintes/ForeignKey/maisons_vente.sql
+@Tables/Contraintes/ForeignKey/FK_MAISONS_VENTES.sql
 
-@Tables/Contraintes/ForeignKey/reservation.sql
+@Tables/Contraintes/ForeignKey/FK_PUBLICATIONS.sql
 
-@Tables/Contraintes/ForeignKey/publication.sql
+@Tables/Contraintes/ForeignKey/FK_RESERVATIONS.sql
+
+@Tables/Contraintes/ForeignKey/FK_VILLES.sql
 
 
 
