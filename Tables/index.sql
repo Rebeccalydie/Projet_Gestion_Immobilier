@@ -1,9 +1,6 @@
 @Tables/clients.sql
 
 
-@Tables/geo_localisation.sql
-
-
 @Tables/historiques_vente.sql
 
 
@@ -17,6 +14,15 @@
 
 
 @Tables/proprietaires.sql
+
+
+@Tables/reservation.sql
+
+
+@Tables/publication.sql
+
+
+@Tables/pays.sql
 
 
 
