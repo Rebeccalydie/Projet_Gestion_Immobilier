@@ -7,8 +7,8 @@ CREATE TABLE maisons_location
   adresse_location VARCHAR2(50),
   prix_menstruel FLOAT (10) NOT NULL,
   caution FLOAT(10),
-  quartier VARCHAR2 (20),
-  rue VARCHAR2(20) NOT NULL,
+  quartier_mlocation VARCHAR2 (20),
+  rue_mvente VARCHAR2(20) NOT NULL,
   id_proprietaire INT NOT NULL	
 ); 
 
