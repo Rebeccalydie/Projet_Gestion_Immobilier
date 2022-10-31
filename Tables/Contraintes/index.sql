@@ -20,6 +20,8 @@ PROMPT ********************* CLE PRIMAIRE **********************************
 
 @Tables/Contraintes/PrimaryKey/PK_VILLES.sql
 
+@Tables/Contraintes/PrimaryKey/PK_REGIONS.sql
+
 
 
 PROMPT ********************** CLE SECONDAIRE *********************************
@@ -38,5 +40,4 @@ PROMPT ********************** CLE SECONDAIRE *********************************
 
 @Tables/Contraintes/ForeignKey/FK_VILLES.sql
 
-
-
+@Tables/Contraintes/ForeignKey/FK_REGIONSS.sql
