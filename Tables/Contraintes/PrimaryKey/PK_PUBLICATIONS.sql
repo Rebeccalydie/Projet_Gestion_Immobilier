@@ -1,0 +1,3 @@
+ALTER TABLE PUBLICATIONS
+ADD 
+PRIMARY KEY (id_publication);

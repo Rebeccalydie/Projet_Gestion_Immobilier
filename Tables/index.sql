@@ -22,6 +22,9 @@
 @Tables/PROPRIETAIRES.sql
 
 
+@Tables/PUBLICATIONS.sql
+
+
 @Tables/RESERVATIONS.sql
 
 

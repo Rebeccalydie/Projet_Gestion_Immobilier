@@ -16,6 +16,8 @@ PROMPT ********************* CLE PRIMAIRE **********************************
 
 @Tables/Contraintes/PrimaryKey/PK_PROPRIETAIRES.sql
 
+@Tables/Contraintes/PrimaryKey/PK_PUBLICATIONS.sql
+
 @Tables/Contraintes/PrimaryKey/PK_RESERVATIONS.sql
 
 @Tables/Contraintes/PrimaryKey/PK_VILLES.sql
