@@ -10,17 +10,15 @@ PROMPT ********************* CLE PRIMAIRE **********************************
 
 @Tables/Contraintes/PrimaryKey/PK_MAISONS_VENTES.sql
 
+@Tables/Contraintes/PrimaryKey/PK_MAISONS_LOCATIONS.sql
+
 @Tables/Contraintes/PrimaryKey/PK_PAYS.sql
 
 @Tables/Contraintes/PrimaryKey/PK_PROPRIETAIRES.sql
 
-@Tables/Contraintes/PrimaryKey/PK_PUBLICATIONS.sql
-
 @Tables/Contraintes/PrimaryKey/PK_RESERVATIONS.sql
 
 @Tables/Contraintes/PrimaryKey/PK_VILLES.sql
-
-@Tables/Contraintes/PrimaryKey/PK_REGIONS.sql
 
 
 
@@ -34,10 +32,9 @@ PROMPT ********************** CLE SECONDAIRE *********************************
 
 @Tables/Contraintes/ForeignKey/FK_MAISONS_VENTES.sql
 
-@Tables/Contraintes/ForeignKey/FK_PUBLICATIONS.sql
-
 @Tables/Contraintes/ForeignKey/FK_RESERVATIONS.sql
 
 @Tables/Contraintes/ForeignKey/FK_VILLES.sql
 
-@Tables/Contraintes/ForeignKey/FK_REGIONSS.sql
+
+

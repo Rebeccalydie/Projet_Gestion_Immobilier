@@ -77,9 +77,10 @@ rem Appelle du fichier ou les differentes tables on été crée
 
 @Tables/index
 
-@Insertion/index
-
 @Tables/contraintes/index.sql
+
+rem @Insertion/index
+
 
 rem execution des commentaires
 @gi_coment.sql
