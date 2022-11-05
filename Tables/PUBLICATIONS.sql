@@ -2,10 +2,12 @@ Prompt ********************  CREATION DE LA TABLE PUBLICATIONS *****************
 
 CREATE TABLE PUBLICATIONS
 (
-    id_publication INT CONSTRAINT id_pub NOT NULL,
-    nom_publication VARCHAR2(50),
-    date_publication DATE,
-    id_proprietaire INT NOT NULL
+    id_publication INT NOT NULL,
+    remise FLOAT(20),
+    duree FLOAT(20),
+    create_At DATE NOT NULL,
+    id_Mlocation VARCHAR2(20) NOT NULL,
+    id_Mvente VARCHAR2(20) NOT NULL
 );
 
 CREATE INDEX id_pub

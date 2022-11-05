@@ -10,6 +10,7 @@ CREATE TABLE MAISONS_VENTES
   description_Mvente VARCHAR2(255),
   adresse_Mvente VARCHAR2(50),
   prix_Mvente FLOAT (10),
+  quartier VARCHAR2(20),
   id_proprietaire INT NOT NULL,
   id_ville INT NOT NULL
 ); 

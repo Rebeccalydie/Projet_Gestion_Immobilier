@@ -7,7 +7,9 @@ CREATE TABLE MAISONS_LOCATIONS
   adresse_Mlocation VARCHAR2(50),
   prix_menstruel FLOAT (10),
   caution FLOAT(10),
-  id_proprietaire INT NOT NULL	
+  quartier VARCHAR2(20),
+  id_proprietaire INT NOT NULL,
+  id_ville VARCHAR2(20) NOT NULL	
 ); 
 
 CREATE INDEX id_Mlocation_nn

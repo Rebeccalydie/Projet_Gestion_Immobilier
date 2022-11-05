@@ -3,12 +3,7 @@
 
 @Tables/CLIENTS.sql
 
-
-@Tables/HISTORIQUES_MLOCATIONS.sql
-
-
-@Tables/HISTORIQUES_MVENTES.sql
-
+@Tables/FAVORIS.sql
 
 @Tables/MAISONS_LOCATIONS.sql
 
@@ -29,3 +24,5 @@
 
 
 @Tables/VILLES.sql
+
+@Tables/SIGNALER.sql
