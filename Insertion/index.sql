@@ -1,15 +1,15 @@
 
-@Insertion/INST_HISTORIQUES_MLOCATIONS.sql
+@Insertion/HISTORIQUES_MLOCATIONS.sql
 
-@Insertion/INST_CLIENTS.sql
+@Insertion/insertion_clients.sql
 
-@Insertion/INST_HISTORIQUES_MVENTES.sql
+@Insertion/insertion_proprietaire.sql
 
-@Insertion/INST_MAISONS_LOCATIONS.sql
+@Insertion/maisons_location.sql
 
-@Insertion/INST_MAISONS_VENTES.sql
+@Insertion/maisons_vente.sql
 
-@Insertion/INST_PROPRIETAIRES.sql
+@Insertion/insert_geo_local.sql
 
-@Insertion/INST_PUBLICATIONS.sql
+@Insertion/insert_hist_vente.sql
 

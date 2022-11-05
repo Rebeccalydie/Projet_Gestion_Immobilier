@@ -1,2 +1,3 @@
 ALTER TABLE PUBLICATIONS
-ADD PRIMARY KEY (id_publication);
+ADD CONSTRAINT id_pub
+PRIMARY KEY (id_publication);
