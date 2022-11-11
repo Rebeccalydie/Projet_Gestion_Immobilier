@@ -1,17 +1,10 @@
-rem ************************************************************************
-rem creation de la table PAYS
-
-
-Prompt *********  creation de la table pays.......
+Prompt ********************  CREATION DE LA TABLE PAYS ***********************************
 
 CREATE TABLE PAYS
-( 
-  id_pays INT CONSTRAINT id_pays_pk NOT NULL,
-  nom_Pays VARCHAR2(20) 
+(
+    id_pays INT NOT NULL,
+    nom_pays VARCHAR2(50)
 );
 
-CREATE  INDEX id_pays_pk
-ON PAYS (id_pays);
-
-
-
+CREATE INDEX id_pay
+ON PAYS(id_pays);
