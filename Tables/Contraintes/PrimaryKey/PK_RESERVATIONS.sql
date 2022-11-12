@@ -1,3 +1,0 @@
-ALTER TABLE RESERVATIONS
-ADD
-PRIMARY KEY (id_reservation);

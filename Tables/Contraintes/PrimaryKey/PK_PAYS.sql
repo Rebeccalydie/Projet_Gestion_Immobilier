@@ -1,3 +1,0 @@
-ALTER TABLE PAYS
-ADD
-PRIMARY KEY (id_pays);
