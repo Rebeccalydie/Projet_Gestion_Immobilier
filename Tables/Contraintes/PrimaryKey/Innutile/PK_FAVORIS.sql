@@ -1,0 +1,3 @@
+ALTER TABLE FAVORIS
+ADD
+PRIMARY KEY (id_favoris);
