@@ -1,0 +1,3 @@
+ALTER TABLE SIGNALER
+ADD CONSTRAINT id_signal_cpk
+	PRIMARY KEY (id_signal);

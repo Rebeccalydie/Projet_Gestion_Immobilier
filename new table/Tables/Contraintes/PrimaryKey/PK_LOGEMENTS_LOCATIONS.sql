@@ -1,0 +1,3 @@
+ALTER TABLE LOGEMENTS
+ADD 
+PRIMARY KEY (id_logement);

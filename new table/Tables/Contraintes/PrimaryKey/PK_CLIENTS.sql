@@ -1,0 +1,3 @@
+ALTER TABLE cLIENTS
+ADD CONSTRAINT id_client_pk
+	PRIMARY KEY (id_client);

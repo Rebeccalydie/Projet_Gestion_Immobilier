@@ -1,0 +1,3 @@
+ALTER TABLE QUARTIERS
+ADD
+PRIMARY KEY (id_quartier);
