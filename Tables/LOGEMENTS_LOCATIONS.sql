@@ -10,7 +10,7 @@ CREATE TABLE LOGEMENTS
   adresse_logement VARCHAR2(50),
   prix_menstruel FLOAT (10),
   caution FLOAT(10),
-  quartier INT
+  quartier VARCHAR2(10)
 ); 
 
 CREATE INDEX id_Log_nn

@@ -10,6 +10,8 @@ rem
 rem @Insertion/maisons_vente.sql
 rem 
 @Insertion/INST_VILLE.sql
+rem
+@Insertion/INST_QUARTIERS.sql
 rem 
 rem @Insertion/insert_hist_vente.sql
 
