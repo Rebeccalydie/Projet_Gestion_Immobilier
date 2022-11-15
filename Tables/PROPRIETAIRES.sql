@@ -8,10 +8,7 @@ CREATE TABLE PROPRIETAIRES
 ( id_proprietaire INT NOT NULL,
   nom_proprietaire VARCHAR2(50) NOT NULL,
   prenom_proprietaire VARCHAR2(50) NOT NULL,
-  email_proprietaire VARCHAR2(50),
-  tel_proprietaire NUMBER(9) NOT NULL,
-  bp_proprietaire VARCHAR2(25),
-  mot_de_passe_proprietaire VARCHAR2(10),
+  mot_passe VARCHAR2(255),
   est_actif CHAR DEFAULT 'Y' NOT NULL
 );
 
