@@ -1,3 +1,0 @@
-ALTER TABLE ACHATS
-ADD
-PRIMARY KEY (id_achat);
