@@ -1,0 +1,3 @@
+ALTER TABLE PROPRIETAIRES
+ADD
+PRIMARY KEY (id_proprietaire);

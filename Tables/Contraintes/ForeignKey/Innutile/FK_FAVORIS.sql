@@ -1,0 +1,5 @@
+ALTER TABLE FAVORIS
+ADD
+CONSTRAINT favoris_FK
+FOREIGN KEY (id_client)
+REFERENCES clients (id_client);
