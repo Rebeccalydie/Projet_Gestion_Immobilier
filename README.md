@@ -37,5 +37,5 @@ projet sql ou on va gerer l'immobilier
 [] Creation d' une publication de logement
 [] Editer une pub
 [] Supprimer une Pub
-[] Consulter ces pubs
+[x] Consulter ces pubs
 [] Consulter les details d'une pub

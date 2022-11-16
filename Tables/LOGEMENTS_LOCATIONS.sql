@@ -4,7 +4,6 @@ CREATE TABLE LOGEMENTS
 ( id_logement VARCHAR2(20) NOT NULL,
   id_proprietaire INT NOT NULL,
   id_quartier VARCHAR2(20) NOT NULL,
-  id_publication INT,
   type_logement VARCHAR2(60),
   description VARCHAR2(200),
   adresse_logement VARCHAR2(50),

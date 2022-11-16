@@ -11,10 +11,3 @@ ADD
 CONSTRAINT id_qtier
 FOREIGN KEY(id_quartier)
 REFERENCES QUARTIERS(id_quartier);
-
-rem FK
-ALTER TABLE LOGEMENTS
-ADD
-CONSTRAINT id_publi
-FOREIGN KEY(id_publication)
-REFERENCES PUBLICATIONS(id_publication);

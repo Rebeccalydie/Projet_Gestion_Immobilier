@@ -29,3 +29,4 @@ PROMPT ********************** CLE SECONDAIRE *********************************
 
 @Tables/Contraintes/ForeignKey/FK_QUARTIERS.sql
 
+@Tables/Contraintes/ForeignKey/FK_PUBLICATION.sql
