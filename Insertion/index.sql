@@ -1,9 +1,8 @@
 
-rem @Insertion/HISTORIQUES_MLOCATIONS.sql
 rem 
-@Insertion/insertion_clients.sql
+@Insertion/INST_CLIENTS.sql
 rem 
-@Insertion/insertion_proprietaire.sql
+@Insertion/INST_PROPRIETAIRES.sql
 rem 
 @Insertion/INST_LOGEMENTS.sql
 rem 
