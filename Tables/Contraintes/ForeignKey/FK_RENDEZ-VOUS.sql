@@ -1,6 +1,0 @@
-rem FK
-ALTER TABLE RENDEZ_VOUS
-ADD 
-CONSTRAINT logt_fk
-FOREIGN KEY (id_proprietaire)
-REFERENCES PROPRIETAIRES (id_proprietaire);

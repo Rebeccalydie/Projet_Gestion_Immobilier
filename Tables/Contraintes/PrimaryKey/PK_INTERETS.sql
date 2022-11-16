@@ -1,3 +1,0 @@
-ALTER TABLE INTERETS
-ADD CONSTRAINT id_interet_pk
-PRIMARY KEY (id_interet);
