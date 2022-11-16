@@ -38,4 +38,4 @@ projet sql ou on va gerer l'immobilier
 [] Editer une pub
 [] Supprimer une Pub
 [x] Consulter ces pubs
-[] Consulter les details d'une pub
+[x] Consulter les details d'une pub
