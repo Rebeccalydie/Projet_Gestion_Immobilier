@@ -4,13 +4,14 @@ rem creation de la table RENDEZ_VOUS
 
 Prompt *********  creation de la table RENDEZ_VOUS.......
 
+CREATE SEQUENCE rdv_seq START WITH 1;
+
 CREATE TABLE RENDEZ_VOUS
-( id_rv INT NOT NULL,
+( id_rv INT DEFAULT rdv_seq.NEXTVAL NOT NULL,
   id_proprietaire INT NOT NULL,
   id_client INT NOT NULL,
-  date_rv DATE NOT NULL,
-  heure_rv DATE NOT NULL,
-  status_rv VARCHAR2(10) NOT NULL,
+  date_rv DATE,
+  heure_rv TIMESTAMP,
   est_actif CHAR DEFAULT 'Y' NOT NULL
 );
 

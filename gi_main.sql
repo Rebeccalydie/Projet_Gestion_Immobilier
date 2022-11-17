@@ -12,13 +12,6 @@ PROMPT **************
 
 PROMPT *********************************** INITIALISATION DU SCHEMA ***********************************
 
-Prompt *******************ALTERATION DE LA SESSION ************************************
-rem Langue francaise
-ALTER SESSION SET NLS_TERRITORY=Cameroon;
-ALTER SESSION SET NLS_LANGUAGE=French;
-SET LINESIZE 300
-ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY'; 
-
 rem On affiche la liste de toute les espaces de tables alloués tablespace deja crée 
 SELECT tablespace_name FROM dba_tablespaces;
 
@@ -74,6 +67,14 @@ rem gi_cre.sql ou les differntes tables ont été crée
 rem gi_popul.sql contenant les differentes données inserer dans les tables 
 
 rem Appelle du fichier ou les differentes tables on été crée 
+
+Prompt *******************ALTERATION DE LA SESSION ************************************
+rem Langue francaise
+ALTER SESSION SET NLS_TERRITORY='Cameroon';
+ALTER SESSION SET NLS_LANGUAGE='French';
+SET LINESIZE 300
+ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY';
+ALTER SESSION SET NLS_TIMESTAMP_FORMAT='HH24/MM/SS';
 
 @Tables/index 
 
