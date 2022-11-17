@@ -7,8 +7,8 @@ projet sql ou on va gerer l'immobilier
 [x] S' inscrire
 [] Rechercher un logement
 [] Consulter les quartiers d' une ville
-[] Consulter la liste des villes
-[] Consulter les details d' un logement
+[x] Consulter la liste des villes
+[x] Consulter les details d' un logement
 [] Enregistrer son interets a un logement
 [] Consulter sa selection de favoris
 [] Editer son interet de logement
@@ -38,4 +38,4 @@ projet sql ou on va gerer l'immobilier
 [] Editer une pub
 [] Supprimer une Pub
 [x] Consulter ces pubs
-[x] Consulter les details d'une pub
+[] Consulter les details d'une pub
