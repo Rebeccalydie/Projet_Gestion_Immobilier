@@ -13,5 +13,3 @@
 @Tables/RENDEZ-VOUS.sql
 
 @Tables/VILLES.sql
-
-@Tables/DESCRIPTION_LOGEMENT.sql 

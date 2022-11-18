@@ -14,5 +14,3 @@ rem
 
 @Insertion/INST_RENDEZ_VOUS.sql
 
-@Insertion/INST_DESCRIPTION.sql 
-

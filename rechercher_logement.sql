@@ -6,5 +6,4 @@ ON (DL.id_logement = L.id_logement)
 JOIN QUARTIERS Q 
 ON (L.id_quartier = Q.id_quartier)
 JOIN VILLES V 
-ON (V.id_ville = Q.id_ville)
-WHERE ;
+ON (V.id_ville = Q.id_ville);

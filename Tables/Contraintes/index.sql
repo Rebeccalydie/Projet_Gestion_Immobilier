@@ -16,8 +16,6 @@ PROMPT ********************* CLE PRIMAIRE **********************************
 
 @Tables/Contraintes/PrimaryKey/PK_RENDEZ-VOUS.sql
 
-@Tables/Contraintes/PrimaryKey/PK_DESCRIPTION.sql
-
 
 PROMPT ********************** CLE SECONDAIRE *********************************
 
@@ -29,6 +27,4 @@ PROMPT ********************** CLE SECONDAIRE *********************************
 
 @Tables/Contraintes/ForeignKey/FK_QUARTIERS.sql
 
-@Tables/Contraintes/ForeignKey/FK_PUBLICATION.sql
-
-@Tables/Contraintes/ForeignKey/FK_DESCRIPTION.sql 
+@Tables/Contraintes/ForeignKey/FK_PUBLICATION.sql 

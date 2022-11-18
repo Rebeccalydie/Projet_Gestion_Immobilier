@@ -5,6 +5,7 @@ CREATE TABLE LOGEMENTS
   id_proprietaire INT NOT NULL,
   id_quartier VARCHAR2(20) NOT NULL,
   type_logement VARCHAR2(60),
+  description VARCHAR2(200),
   adresse_logement VARCHAR2(50),
   prix_mensuel FLOAT (15),
   caution FLOAT(15)
