@@ -34,8 +34,8 @@ projet sql ou on va gerer l'immobilier
 [x] S' inscrire
 [x] Creer un logement
 [] CRUD un logement
-[] Creation d' une publication de logement
+[x] Creation d' une publication de logement
 [] Editer une pub
-[] Supprimer une Pub
+[x] Supprimer une Pub
 [x] Consulter ces pubs
 [x] Consulter les details d'une pub

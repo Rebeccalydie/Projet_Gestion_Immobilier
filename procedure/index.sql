@@ -3,3 +3,5 @@
 @procedure/procedure_insertion_proprietaire.sql
 
 @procedure/procedure_insertion_logement.sql 
+
+@procedure/procedure_creation_publication.sql 
