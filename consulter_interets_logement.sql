@@ -3,4 +3,4 @@ FROM LOGEMENTS
 JOIN PUBLICATIONS
 ON(LOGEMENTS.id_logement = PUBLICATIONS.id_logement)
 JOIN INTERETS
-ON(PUBLICATIONS.id_interet = INTERETS.id_interet);
+ON(PUBLICATIONS.id_publication = INTERETS.id_publication);
