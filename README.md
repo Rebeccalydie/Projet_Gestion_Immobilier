@@ -9,12 +9,12 @@ projet sql ou on va gerer l'immobilier
 [x] Consulter les quartiers d' une ville
 [x] Consulter la liste des villes
 [x] Consulter les details d' un logement
-[] Enregistrer son interets a un logement
-[] Consulter sa selection de favoris
-[] Editer son interet de logement
-[] Supprimer son interets de logement
-[] Accepter un RDV
-[] Refuser un RDV
+[x] Enregistrer son interets a un logement
+[x] Consulter sa selection de favoris
+[x] Editer son interet de logement
+[x] Supprimer son interets de logement
+[x] Accepter un RDV
+[x] Refuser un RDV
 
 ## Administrateur
 
