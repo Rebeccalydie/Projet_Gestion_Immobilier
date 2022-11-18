@@ -1,6 +1,3 @@
-SELECT * 
-<<<<<<< HEAD
-FROM INTERETS;
-=======
-FROM INTERETS;
->>>>>>> c05bd00df157dfc4fee70305706b7a30f2388d50
+SELECT date_debut "date de debut", date_fin "date de fin"
+FROM INTERETS
+WHERE id_interet LIKE '&id_interet';
