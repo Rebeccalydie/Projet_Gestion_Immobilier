@@ -1,0 +1,1 @@
+SELECT type_logement, description, nom_proprietaire, nom_quartier, nom_ville, prix_mensuel
