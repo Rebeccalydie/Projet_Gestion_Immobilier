@@ -1,3 +1,3 @@
-SELECT description_pub 
+SELECT titre_publication, description_pub 
 FROM PUBLICATIONS
-WHERE id_logement LIKE '&id logement';
+WHERE id_logement = '&id_logement';
