@@ -7,6 +7,7 @@ CREATE TABLE INTERETS
     id_interet INT DEFAULT int_seq.NEXTVAL NOT NULL,
     id_client INT NOT NULL,
     id_publication INT,
+    detail VARCHAR2,
     date_debut DATE,
     date_fin DATE 
 );
