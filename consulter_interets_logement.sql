@@ -1,4 +1,4 @@
-SELECT * id_interet
+SELECT id_interet
 FROM LOGEMENTS
 JOIN PUBLICATIONS
 ON(LOGEMENTS.id_logement = PUBLICATIONS.id_logement)
