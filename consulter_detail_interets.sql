@@ -1,2 +1,2 @@
-SELECT * id_interet
+SELECT * 
 FROM INTERETS;
