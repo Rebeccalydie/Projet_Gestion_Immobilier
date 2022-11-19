@@ -1,14 +1,13 @@
 Prompt **************  creation de la table LOGEMENTS_LOCATIONS ****************************
 
 CREATE TABLE LOGEMENTS
-( 
-  id_logement VARCHAR2(20) NOT NULL,
+( id_logement VARCHAR2(20) NOT NULL,
   id_proprietaire INT NOT NULL,
   id_quartier VARCHAR2(20) NOT NULL,
   type_logement VARCHAR2(60),
   Nbre_chambre INT,
   Nbre_douche INT,
-  AvecCuisine CHAR,
+  AvecPiscine CHAR,
   AvecMeuble CHAR,
   AvecBalcon CHAR,
   AvecParking CHAR,
