@@ -16,5 +16,5 @@ INSERT INTO VILLES (id_ville ,nom_ville) VALUES('ban', 'Bandjoun');
 INSERT INTO VILLES (id_ville ,nom_ville) VALUES('nsang', 'nsangmelima');
 INSERT INTO VILLES (id_ville ,nom_ville) VALUES('dsc', 'Dschang');
 INSERT INTO VILLES (id_ville ,nom_ville) VALUES('adam', 'Adamaoua');
-INSERT INTO VILLES (id_ville ,nom_ville) VALUES('bt', 'Batouri');
+INSERT INTO VILLES (id_ville ,nom_ville) VALUES('bat', 'Batouri');
 INSERT INTO VILLES (id_ville ,nom_ville) VALUES('lou', 'Loum');
