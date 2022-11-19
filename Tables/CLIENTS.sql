@@ -15,8 +15,8 @@ CREATE TABLE CLIENTS
   tel_client NUMBER(9),
   cp_client VARCHAR2(20),
   mot_de_passe VARCHAR2(10),
-  est_actif CHAR DEFAULT 'Y',
-  est_admin CHAR DEFAULT 'N'
+  est_actif VARCHAR(10) DEFAULT 'Y',
+  est_admin VARCHAR(10) DEFAULT 'N'
   );
 
 CREATE INDEX id_client_pk

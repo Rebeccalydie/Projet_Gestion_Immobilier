@@ -1,5 +1,4 @@
 rem Initialisation du shema Gestion Immobilier en abregé gi
-
 SET ECHO OFF
 SET VERIFY OFF
 alter session set container=xepdb1;

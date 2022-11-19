@@ -12,7 +12,7 @@ CREATE TABLE RENDEZ_VOUS
   id_client INT NOT NULL,
   date_rv DATE,
   heure_rv TIMESTAMP,
-  est_actif CHAR DEFAULT 'Y' NOT NULL
+  est_actif VARCHAR(10) DEFAULT 'Y' NOT NULL
 );
 
 CREATE  INDEX id_rv_pk

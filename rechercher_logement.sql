@@ -1,5 +1,5 @@
 SELECT type_logement "TYPE DE LOGEMENT", nom_quartier "NOM QUARTIER", 
-nom_ville "NOM VILLE", prix_mensuel "PRIX MENSUEL", nom_proprietaire||' '||prenom_propri "NOM PROPRIETAIRE"
+nom_ville "NOM VILLE", prix_mensuel "PRIX MENSUEL", nom_proprietaire||' '||prenom_proprietaire "NOM PROPRIETAIRE"
 FROM PROPRIETAIRES P
 JOIN LOGEMENTS L
 ON (P.id_proprietaire = L.id_proprietaire)
@@ -10,6 +10,6 @@ ON (V.id_ville = Q.id_ville)
 WHERE nom_ville = '&nom_ville' AND
 nom_quartier= '&nom_quartier' AND 
 prix_mensuel BETWEEN &prixMinimal AND &PrixMaximal AND 
-Nbre_chambre = &Nbre_de_chambre OR Nbre_douche = &Nbre_de_douche 
-OR AvecParking = '&Avec_parking' OR AvecBalcon ='&AvecBalcon' OR 
+Nbre_chambre = &Nbre_de_chambre AND Nbre_douche = &Nbre_de_douche 
+AND AvecParking = '&Avec_parking' AND AvecBalcon ='&AvecBalcon' OR 
 AvecPiscine = '&AvecPiscine';
