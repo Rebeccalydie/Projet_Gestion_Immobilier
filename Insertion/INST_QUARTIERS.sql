@@ -25,3 +25,5 @@ INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG24',  'N
 INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG25',  'Etoug-ebe', 'yde');
 INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG26',  'Kotto', 'dla');
 INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG27',  'Makepe', 'dla');
+INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG28',  'tio', 'baf');
+INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG29',  'koptio', 'baf');
