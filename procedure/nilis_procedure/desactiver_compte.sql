@@ -1,4 +1,4 @@
-PROMPT ******************** ACTIVER UN COMPTE CLIENT ***************************
+PROMPT ******************** DESACTIVER UN COMPTE CLIENT ***************************
 PROMPT *****************************************************************
 
 
@@ -10,7 +10,7 @@ set define on
 begin
 
 UPDATE CLIENT
- set EST_ACTIF= 'Y'
+ set EST_ACTIF= 'N'
 WHERE ID_CLIENT = &ID_CLIENT;
 
 
