@@ -9,3 +9,5 @@
 @procedure/procedure_creation_ville.sql
 
 @procedure/procedure_insertion_interet.sql 
+
+@procedure/procedure_create_quartiers.sql 

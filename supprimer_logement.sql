@@ -1,7 +1,6 @@
-SET DEFINE ON
-
-BEGIN 
-DELETE FROM LOGEMENTS 
-WHERE id_proprietaire = '&id_logement';
+set define on
+DELETE * FROM LOGEMENTS
+WHERE 
+   (id_logement = &id_logement );
 END;
 /
