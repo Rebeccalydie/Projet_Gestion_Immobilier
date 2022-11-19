@@ -1,3 +1,2 @@
-SELECT type_logement "TYPE DE LOGEMENT", DESCRIPTION "DESCRIPTION DU LOGEMENT"
-FROM LOGEMENTS
-WHERE id_logement LIKE '&id_logement';
+SELECT * FROM LOGEMENTS
+WHERE id_logement = '&id_logement';

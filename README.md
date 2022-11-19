@@ -18,16 +18,16 @@ projet sql ou on va gerer l'immobilier
 
 ## Administrateur
 
-[] CRUD les villes
-[] CRUD Quartiers
-[] Desactiver un compte utilisateur
-[] Activer un compte utilisateur
-[] Supprimer un logement
+[x] CRUD les villes
+[x] CRUD Quartiers
+[x] Desactiver un compte utilisateur
+[x] Activer un compte utilisateur
+[x] Supprimer un logement
 [x] Consulter la liste des interets de logement
 [x] Consulter les details d' un interets de logement
-[] Programmer un RDV
-[] Editer un RDV
-[] supprimer un RDV
+[x] Programmer un RDV
+[x] Editer un RDV
+[x] supprimer un RDV
 
 ## Proprietaire
 
