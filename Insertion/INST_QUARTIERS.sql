@@ -20,3 +20,8 @@ INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG19',  'N
 INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG20',  'Cavn', 'lim');
 INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG21',  'Yuange', 'gar');
 INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG22',  'Nkotaba', 'gar');
+INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG23',  'Beddi', 'dla');
+INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG24',  'Nsam', 'yde');
+INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG25',  'Etoug-ebe', 'yde');
+INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG26',  'Kotto', 'dla');
+INSERT INTO QUARTIERS (id_quartier, nom_quartier, id_ville) VALUES ('LOG27',  'Makepe', 'dla');
